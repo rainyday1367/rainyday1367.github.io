@@ -11,4 +11,4 @@ title: 홈
 # 최근 포스터
 {% for post in site.posts %}
 - [{{ post.title }}] ({{ post.url }} - {{ post.data | data: "%Y년 %n월 %d일" }}
-{ % endfor %}
+{% endfor %}

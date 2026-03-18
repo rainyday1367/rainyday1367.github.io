@@ -67,8 +67,8 @@ const openLink = (url) => {
           AWS 아키텍처 설계와 무중단 배포(Blue-Green) 경험을 통해 안정적이고 유연한 환경을 구축합니다.
         </p>
         <div class="hero-actions">
-          <button class="btn btn-primary">View My Work</button>
-          <button class="btn btn-secondary">Contact Me</button>
+          <a href="#projects" class="btn btn-primary" style="text-decoration: none; display: inline-block;">View My Work</a>
+          <a href="#contact" class="btn btn-secondary" style="text-decoration: none; display: inline-block;">Contact Me</a>
         </div>
       </div>
       
@@ -100,7 +100,7 @@ const openLink = (url) => {
                 <div class="timeline-date">2025.12 - 2026.04</div>
                 <div class="timeline-content">
                   <h4>용산 새싹 4기 AI 클라우드, 데이터 엔지니어 양성과정</h4>
-                  <p>Network, Database, Linux, IaC, Container 양성 과정 수행</p>
+                  <p>Network, Database, Linux, IaC, Docker, k8s 양성 과정 수행 중</p>
                 </div>
               </div>
               <div class="timeline-item">
@@ -272,9 +272,9 @@ const openLink = (url) => {
           Whether you have a technical question, a project proposal, or are looking to hire a dedicated System and Cloud Engineer, I’m always open to discussing new opportunities.
         </p>
         <div class="social-links">
-          <a href="mailto:rainyday1367@naver.com" class="social-btn" target="_blank">
+          <a href="mailto:rainyday1367@naver.com" class="social-btn">
             <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-            Email Me
+            Email: rainyday1367@naver.com
           </a>
           <a href="https://github.com/rainyday1367" class="social-btn" target="_blank">
             <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>

@@ -26,6 +26,12 @@ onMounted(() => {
     updateTheme()
   }
 })
+
+const openLink = (url) => {
+  if (url) {
+    window.open(url, '_blank', 'noopener,noreferrer')
+  }
+}
 </script>
 
 <template>
@@ -210,7 +216,7 @@ onMounted(() => {
       <h2 class="section-title">Featured Projects</h2>
       <div class="projects-grid">
         <!-- Project 1 -->
-        <article class="project-card glass-panel">
+        <article class="project-card glass-panel" @click="openLink('https://github.com/rainyday1367/be14-final-Ideality-CoreFlow')" style="cursor: pointer;">
           <div class="project-image" style="background: linear-gradient(135deg, rgba(79, 70, 229, 0.15), rgba(219, 39, 119, 0.15)); display:flex; align-items:center; justify-content:center; color: var(--accent-primary); font-size:4rem; font-weight:900; font-family:var(--font-display);">CF</div>
           <h3><a href="https://github.com/rainyday1367/be14-final-Ideality-CoreFlow" target="_blank">CoreFlow (협업 일정 관리 시스템)</a></h3>
           <p class="text-muted">
@@ -227,7 +233,7 @@ onMounted(() => {
         </article>
         
         <!-- Project 2 -->
-        <article class="project-card glass-panel">
+        <article class="project-card glass-panel" @click="openLink('https://github.com/rainyday1367/be14-4th-Ideality-MyLocalDiary')" style="cursor: pointer;">
           <div class="project-image" style="background: linear-gradient(135deg, rgba(16, 185, 129, 0.15), rgba(59, 130, 246, 0.15)); display:flex; align-items:center; justify-content:center; color: #10b981; font-size:4rem; font-weight:900; font-family:var(--font-display);">MD</div>
           <h3><a href="https://github.com/rainyday1367/be14-4th-Ideality-MyLocalDiary" target="_blank">MyLocalDiary</a></h3>
           <p class="text-muted">

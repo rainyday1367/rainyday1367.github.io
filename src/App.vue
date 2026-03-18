@@ -52,12 +52,13 @@ onMounted(() => {
       <div class="hero-content animate-fade-in">
         <div class="badge">Available for work</div>
         <h1 class="hero-title">
-          Crafting digital experiences with <br/>
-          <span class="text-gradient">passion</span> & <span class="text-gradient">precision</span>.
+          Architecting robust systems with <br/>
+          <span class="text-gradient">stability</span> & <span class="text-gradient">scale</span>.
         </h1>
         <p class="hero-subtitle">
           사용자 경험과 확장 가능한 시스템 구축을 중시하는 System & Cloud Engineer 입니다.<br/>
-          AWS 아키텍처 설계와 무중단 배포(Blue-Green) 경험을 바탕으로, 안정적이고 유연한 인프라를 지향합니다.
+          개발 전 과정에 대한 경험을 바탕으로 개발자가 필요로 하는 인프라를 제공하고 원활한 소통을 지향합니다.<br/>
+          AWS 아키텍처 설계와 무중단 배포(Blue-Green) 경험을 통해 안정적이고 유연한 환경을 구축합니다.
         </p>
         <div class="hero-actions">
           <button class="btn btn-primary">View My Work</button>
@@ -78,7 +79,7 @@ onMounted(() => {
       <div class="about-grid">
         <div class="profile-card glass-panel">
           <div class="profile-image">
-            <span style="font-size: 2rem; font-weight: 700;">JDH</span>
+            <img src="./assets/profile.jpg" alt="정동한 사진" class="profile-img" />
           </div>
           <h3>정동한 (Jung Dong Han)</h3>
           <p class="text-muted">System & Cloud Engineer</p>
@@ -90,17 +91,17 @@ onMounted(() => {
             <h3 class="history-title">💼 Experience & Activities</h3>
             <div class="timeline">
               <div class="timeline-item">
-                <div class="timeline-date">2025.01 - 2025.06</div>
+                <div class="timeline-date">2025.12 - 2026.04</div>
                 <div class="timeline-content">
-                  <h4>한화시스템 BEYOND SW CAMP 14기</h4>
-                  <p>Java, Spring Boot, Vue.js 기반 풀스택 역량 및 클라우드 배포 실무 특화 과정 수료.</p>
+                  <h4>용산 새싹 4기 AI 클라우드, 데이터 엔지니어 양성과정</h4>
+                  <p>Network, Database, Linux, IaC, Container 양성 과정 수행</p>
                 </div>
               </div>
               <div class="timeline-item">
-                <div class="timeline-date">2024.01 - 2024.02</div>
+                <div class="timeline-date">2024.03 - 2024.12</div>
                 <div class="timeline-content">
-                  <h4>로보그램 AI 로봇연구소 인턴</h4>
-                  <p>API 연동 시스템 구축 및 업무 자동화를 위한 쉘 스크립트 작성 등 시스템 관리 업무 수행.</p>
+                  <h4>강원대학교 글로컬 원격 교육 혁신 센터 근로 장학생</h4>
+                  <p>원격 강의 영상 촬영 및 편집 업무 수행</p>
                 </div>
               </div>
             </div>
@@ -132,8 +133,8 @@ onMounted(() => {
               <div class="timeline-item">
                 <div class="timeline-date">2026.01</div>
                 <div class="timeline-content">
-                  <h4>RHCSA 취득 & 정보처리기사</h4>
-                  <p>Red Hat 시스템 관리자 자격증(RHCSA) 및 정보처리기사 국가공인 자격 취득.</p>
+                  <h4>RHCSA 자격증 취득</h4>
+                  <p>Red Hat 시스템 관리자 자격증(RHCSA) 취득.</p>
                 </div>
               </div>
               <div class="timeline-item">
@@ -150,6 +151,13 @@ onMounted(() => {
                   <p>Ethereum/Solidity 블록체인 기반의 기숙사 입퇴사 증명서 시스템 구축.</p>
                 </div>
               </div>
+              <div class="timeline-item">
+                <div class="timeline-date">2024.09</div>
+                <div class="timeline-content">
+                  <h4>정보처리기사</h4>
+                  <p>정보처리기사 국가공인 자격 취득.</p>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -157,14 +165,13 @@ onMounted(() => {
           <div class="tech-stack">
             <h3 class="tech-title">Core Technologies</h3>
             <div class="tech-tags">
-              <span class="tech-tag">AWS (EC2, S3, RDS)</span>
-              <span class="tech-tag">Docker Containerization</span>
-              <span class="tech-tag">Kubernetes (EKS)</span>
-              <span class="tech-tag">Linux Administration</span>
-              <span class="tech-tag">CI/CD (Jenkins, GitLab)</span>
-              <span class="tech-tag">Terraform (IaC)</span>
-              <span class="tech-tag">Python & Bash</span>
-              <span class="tech-tag">Networking (VPC, Route53)</span>
+              <span class="tech-tag">Java Spring Boot</span>
+              <span class="tech-tag">Node.js, Express.js</span>
+              <span class="tech-tag">Database(MySQL, NoSQL)</span>
+              <span class="tech-tag">Linux Admin</span>
+              <span class="tech-tag">CI/CD (Github Actions)</span>
+              <span class="tech-tag">AWS(EC2, S3, RDS)</span>
+              <span class="tech-tag">IaC(Ansible, Terraform)</span>
             </div>
           </div>
         </div>
@@ -178,9 +185,11 @@ onMounted(() => {
         <!-- Project 1 -->
         <article class="project-card glass-panel">
           <div class="project-image" style="background: linear-gradient(135deg, rgba(79, 70, 229, 0.15), rgba(219, 39, 119, 0.15)); display:flex; align-items:center; justify-content:center; color: var(--accent-primary); font-size:4rem; font-weight:900; font-family:var(--font-display);">CF</div>
-          <h3>Core Flow (협업 일정 관리 ERP)</h3>
+          <h3>CoreFlow (협업 일정 관리 시스템)</h3>
           <p class="text-muted">
-            팀 리더로서 <strong>CI/CD 및 배포 총괄</strong>을 담당했습니다. Github Actions와 AWS EC2/S3/Load Balancer를 활용해 Blue-Green 무중단 배포 환경을 성공적으로 설계하고 적용했습니다.
+            배포 담당으로 CI/CD, AWS 배포를 수행했습니다.<br/>
+            Github Actions와 AWS EC2/S3/Load Balancer 활용해 Blue-Green 무중단 배포 환경을 구축하였습니다.<br/>
+            파사드 패턴을 적용하여 CRUD 작업을 수행했습니다.
           </p>
           <div class="project-tags">
             <span class="tag">AWS</span>
@@ -193,9 +202,10 @@ onMounted(() => {
         <!-- Project 2 -->
         <article class="project-card glass-panel">
           <div class="project-image" style="background: linear-gradient(135deg, rgba(16, 185, 129, 0.15), rgba(59, 130, 246, 0.15)); display:flex; align-items:center; justify-content:center; color: #10b981; font-size:4rem; font-weight:900; font-family:var(--font-display);">MD</div>
-          <h3>MyLocalDiary (지도 & SNS 앱)</h3>
+          <h3>MyLocalDiary</h3>
           <p class="text-muted">
-            위치 기반 API를 연동하여 지역 중심으로 다이어리를 공유할 수 있는 소셜 네트워킹 서비스를 구축했습니다. MariaDB와 Redis를 사용해 데이터를 최적화했습니다.
+            지도 API를 활용하여 장소를 다이어리 형식으로 공유할 수 있는 SNS 시스템을 구축했습니다.<br/>
+            JWT와 Spring Security를 활용해서 로그인 로직을 구현하였습니다.
           </p>
           <div class="project-tags">
             <span class="tag">Spring Boot</span>
@@ -208,9 +218,9 @@ onMounted(() => {
         <!-- Project 3 -->
         <article class="project-card glass-panel">
           <div class="project-image" style="background: linear-gradient(135deg, rgba(245, 158, 11, 0.15), rgba(239, 68, 68, 0.15)); display:flex; align-items:center; justify-content:center; color: #f59e0b; font-size:4rem; font-weight:900; font-family:var(--font-display);">DID</div>
-          <h3>블록체인 증명서 관리 시스템</h3>
+          <h3>블록체인 증명서 관리 시스템 (졸업 작품)</h3>
           <p class="text-muted">
-            Ethereum 네트워크와 Solidity 스마트 컨트랙트를 통해 위변조가 불가능한 분산 데이터 모델을 구현하고, 이를 대학 기숙사 환경에 적용했습니다.
+            로컬 Ethereum 네트워크와 Solidity 스마트 컨트랙트를 통해 학생 인증이 완료된 학생은 학생 증명 서류를 PDF로 발급 받을 수 있는 시스템의 기획을 담당했습니다.
           </p>
           <div class="project-tags">
             <span class="tag">Ethereum</span>

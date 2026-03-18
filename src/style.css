@@ -243,6 +243,12 @@ ol {
   position: relative;
 }
 
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* Tech Stack */
 .tech-stack {
   margin-top: 2rem;
@@ -337,12 +343,33 @@ ol {
 
 /* Projects Layout */
 .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  display: flex;
+  overflow-x: auto;
   gap: 2rem;
+  padding-bottom: 2rem;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.projects-grid::-webkit-scrollbar {
+  height: 8px;
+}
+.projects-grid::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: var(--radius-full);
+}
+.projects-grid::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: var(--radius-full);
+}
+.projects-grid::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
 }
 
 .project-card {
+  min-width: 320px;
+  flex: 0 0 320px;
+  scroll-snap-align: start;
   padding: 1.5rem;
   transition: transform var(--transition-normal);
   display: flex;

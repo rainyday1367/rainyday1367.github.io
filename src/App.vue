@@ -98,10 +98,30 @@ onMounted(() => {
                 </div>
               </div>
               <div class="timeline-item">
+                <div class="timeline-date">2025.11.22</div>
+                <div class="timeline-content">
+                  <h4>강원대학교 본교 AWS Hackathon 참가</h4>
+                  <p>AI 페르소나로 상황별 연인 대화 대처 러브리허설 개발 (Lambda 함수 백엔드 개발 수행)</p>
+                </div>
+              </div>
+              <div class="timeline-item">
                 <div class="timeline-date">2024.03 - 2024.12</div>
                 <div class="timeline-content">
-                  <h4>강원대학교 글로컬 원격 교육 혁신 센터 근로 장학생</h4>
+                  <h4>강원대학교 본교 글로컬 원격 교육 혁신 센터 근로 장학생</h4>
                   <p>원격 강의 영상 촬영 및 편집 업무 수행</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-date">2024.01 - 2024.02</div>
+                <div class="timeline-content">
+                  <h4>주식회사 로보그램 인공지능 로봇연구소</h4>
+                  <ul style="color: var(--text-secondary); font-size: 0.95rem; padding-left: 1.2rem; margin-top: 0.5rem; list-style-type: disc;">
+                    <li>로보미 교재 검토 및 교재에 따른 앱 오류 점검</li>
+                    <li>Shell Script로 특정 프로세스가 겹치지 않게 하는 스크립트 작성</li>
+                    <li>라즈베리파이에 Python으로 Open API 연동을 통해 음성 인식 연동 작업</li>
+                    <li>리눅스 공부 및 Shell Script 기본 공부</li>
+                    <li>Open API에 대한 가격 시장 조사 및 비교</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -113,14 +133,14 @@ onMounted(() => {
               <div class="timeline-item">
                 <div class="timeline-date">2023.03 - 2025.08</div>
                 <div class="timeline-content">
-                  <h4>강원대학교</h4>
+                  <h4>강원대학교 본교</h4>
                   <p>컴퓨터공학과 (학점 3.73 / 4.5)</p>
                 </div>
               </div>
               <div class="timeline-item">
                 <div class="timeline-date">2019.03 - 2023.02</div>
                 <div class="timeline-content">
-                  <h4>안동대학교</h4>
+                  <h4>국립 경국대학교</h4>
                   <p>정보통신공학과 (학점 3.76 / 4.5)</p>
                 </div>
               </div>
@@ -158,6 +178,13 @@ onMounted(() => {
                   <p>정보처리기사 국가공인 자격 취득.</p>
                 </div>
               </div>
+              <div class="timeline-item">
+                <div class="timeline-date">2019.01</div>
+                <div class="timeline-content">
+                  <h4>운전면허 1종 보통</h4>
+                  <p>제 1종 보통 자동차운전면허 취득.</p>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -185,7 +212,7 @@ onMounted(() => {
         <!-- Project 1 -->
         <article class="project-card glass-panel">
           <div class="project-image" style="background: linear-gradient(135deg, rgba(79, 70, 229, 0.15), rgba(219, 39, 119, 0.15)); display:flex; align-items:center; justify-content:center; color: var(--accent-primary); font-size:4rem; font-weight:900; font-family:var(--font-display);">CF</div>
-          <h3>CoreFlow (협업 일정 관리 시스템)</h3>
+          <h3><a href="https://github.com/rainyday1367/be14-final-Ideality-CoreFlow" target="_blank">CoreFlow (협업 일정 관리 시스템)</a></h3>
           <p class="text-muted">
             배포 담당으로 CI/CD, AWS 배포를 수행했습니다.<br/>
             Github Actions와 AWS EC2/S3/Load Balancer 활용해 Blue-Green 무중단 배포 환경을 구축하였습니다.<br/>
@@ -202,7 +229,7 @@ onMounted(() => {
         <!-- Project 2 -->
         <article class="project-card glass-panel">
           <div class="project-image" style="background: linear-gradient(135deg, rgba(16, 185, 129, 0.15), rgba(59, 130, 246, 0.15)); display:flex; align-items:center; justify-content:center; color: #10b981; font-size:4rem; font-weight:900; font-family:var(--font-display);">MD</div>
-          <h3>MyLocalDiary</h3>
+          <h3><a href="https://github.com/rainyday1367/be14-4th-Ideality-MyLocalDiary" target="_blank">MyLocalDiary</a></h3>
           <p class="text-muted">
             지도 API를 활용하여 장소를 다이어리 형식으로 공유할 수 있는 SNS 시스템을 구축했습니다.<br/>
             JWT와 Spring Security를 활용해서 로그인 로직을 구현하였습니다.

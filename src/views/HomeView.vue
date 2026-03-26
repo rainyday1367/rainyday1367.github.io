@@ -15,6 +15,7 @@
 
     <!-- Right Column: Main Text Content -->
     <div class="hero-content animate-fade-in">
+      <div class="badge">{{ $t('home.status') }}</div>
       <h1 class="hero-title" style="font-size: 3.5rem; line-height: 1.2;">
         {{ $t('home.title1') }} <br/>
         <span class="text-gradient">{{ $t('home.title2') }}</span>

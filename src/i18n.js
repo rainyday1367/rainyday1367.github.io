@@ -5,6 +5,7 @@ const messages = {
     nav: { about: 'About', resume: 'Resume', skills: 'Skills', projects: 'Projects', contact: 'Contact' },
     home: {
       name: '정동한',
+      status: '구직 중',
       title1: 'System Engineer',
       title2: 'Cloud Engineer',
       subtitle: '개발 전 과정에 대한 경험을 바탕으로 개발자가 필요로 하는 인프라를 제공하고 원활한 소통을 지향하는 인프라 엔지니어입니다.<br/>백엔드 개발 경험과 무중단 아키텍처 설계 경험을 통해 안정적이고 유연한 인프라 환경을 지향합니다.<br/>현재는 IaC와 컨테이너, AI 툴에 관심을 두고 학습하고 있습니다.',
@@ -58,8 +59,8 @@ const messages = {
     },
     contact: {
       title: '연락처 (Contact)',
-      subtitle: "Let's Build Something <span class='text-gradient font-bold'>Amazing</span> Together",
-      desc: '함께 일할 기회를 찾고 있습니다.<br/>실무에서의 경험과 성장의 기회를 환영합니다.<br/>가벼운 대화도 좋습니다.',
+      subtitle: "함께 일할 기회를 <span class='text-gradient font-bold'>찾고 있습니다</span>",
+      desc: '실무에서의 경험과 성장의 기회를 환영합니다.<br/>가벼운 대화도 좋습니다.',
       phone: '전화번호',
       github: 'GitHub'
     }
@@ -68,6 +69,7 @@ const messages = {
     nav: { about: 'About', resume: 'Resume', skills: 'Skills', projects: 'Projects', contact: 'Contact' },
     home: {
       name: 'Jung Dong Han',
+      status: 'Available for work',
       title1: 'System Engineer',
       title2: 'Cloud Engineer',
       subtitle: 'An infrastructure engineer aiming for seamless communication by providing the infrastructure developers need, based on full-cycle development experience.<br/>I strive for a stable and flexible infrastructure environment leverages backend development and zero-downtime architecture design experience.<br/>Currently learning and focusing on IaC, containers, and AI tools.',
@@ -121,8 +123,8 @@ const messages = {
     },
     contact: {
       title: 'Contact',
-      subtitle: "Let's Build Something <span class='text-gradient font-bold'>Amazing</span> Together",
-      desc: 'Looking for an opportunity to work together.<br/>I welcome practical experience and opportunities for growth.<br/>A casual chat is also welcome.',
+      subtitle: "Looking for an <span class='text-gradient font-bold'>opportunity</span> to work together",
+      desc: 'I welcome practical experience and opportunities for growth.<br/>A casual chat is also welcome.',
       phone: 'Phone',
       github: 'GitHub'
     }
@@ -131,6 +133,7 @@ const messages = {
     nav: { about: 'About', resume: 'Resume', skills: 'Skills', projects: 'Projects', contact: 'Contact' },
     home: {
       name: 'チョン・ドンハン',
+      status: '求職中',
       title1: 'System Engineer',
       title2: 'Cloud Engineer',
       subtitle: '開発全過程の経験を基に、開発者が必要とするインフラを提供し、円滑なコミュニケーションを目指すインフラエンジニアです。<br/>バックエンド開発と無停止アーキテクチャ設計の経験から、安定して柔軟なインフラ環境を追求しています。<br/>現在はIaC、コンテナ、AIツールに関心を持ち学習しています。',
@@ -184,8 +187,8 @@ const messages = {
     },
     contact: {
       title: '連絡先 (Contact)',
-      subtitle: "Let's Build Something <span class='text-gradient font-bold'>Amazing</span> Together",
-      desc: '一緒に働く機会を探しています。<br/>実務での経験と成長の機会を歓迎します。<br/>軽い会話も大歓迎です。',
+      subtitle: "一緒に働く機会を <span class='text-gradient font-bold'>探しています</span>",
+      desc: '実務での経験と成長の機会を歓迎します。<br/>軽い会話も大歓迎です。',
       phone: '電話番号',
       github: 'GitHub'
     }
